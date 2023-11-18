@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "udp-mhacks-november-2023",
+  "private_key_id": "89cd68f7384b7fc9c7288501af933301af58c144",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDI4E+jS/YKBHiL\nvJJs34YyTaRa3OuQL7om+sxMMIvOd4yKNEisQI3Rn5cAK1qQnTdlT0n2Fvhfkueo\nCRnhaomwVrsNFZqW+AtXJe9TVTnqOr2WRbpDxdJnE/WwGj3tXVzpsFNOT0x6OERF\n/ewH4LClaz26/CzRWj1LSVDEzCrFlFAEJCqf/yY9s37f2VtaIojG/P3qfKZtdOdo\nDl9MEwzabdwfKuvySQeUqVKEn/1u+Acrjnq+xAYk+GVM2c/N3orCYXYXRHfehMcU\n4j18Kzu7xypP6hrSHhWacNKCtRRwsgSd05axzakrjNNaH6x+AYpX7momuK+4lMAq\n4fZbCW/pAgMBAAECggEAVt8/QbFLrehiE5iRQJloaV/PmOYaz8f8OvhSmw6Rn9Bu\nzKQw26GtU38vqAiXyZvcRamFJHKppnebTL3m3egbtNHFYjK6INkT2nQS7NiaS9Rs\ngk0UcVPfmul0YtzudDVgxcWWOXMs8VxdFmHqjjubWWaoEzIU1dMvV9xUnE9pnfky\nWvA24dG/GOHTgen90Y6Iyff9PSpmWsNwvlhmK6XfzyMewM4J9NHVPcngyUqeQLsZ\nh4gUEJ0SnzPanETV9jhEwhT3BN44Du73A+qpDqPwpJTgKp7KF5Thf6SJ2I2zin9P\nkGdm9bomf0EefC8IKJkjPmPPvhouoXmbWVqDJjvPYwKBgQDriQm+bQgxurf3RsXP\nJDPIXlOZ0uaiU5dG7gegX3TQgogJxWzHN/b5aJSMllMbyFSJ2SrZVAyKCanMQOlX\nan6MsbQOwOISzEEugijDKyFVnSnCFcMcqr106ojSs8sslwHNQBLy/VtbgIX5pcWX\n6pQI0c4feHpcZIXXi/low0TBBwKBgQDaVFu0q4XpRjMritiKqBuO3cJlLdvLoRGS\nbJpbcPpjjYKQ4U1uP4JfnImg+S9ojic4Rc5dfd+HFmlk4Qpi9oBOUtncLoSQn8Kt\napnkTwiT3uC1qWZhS1cPyiPzpAzWZwvaiLlsgJqtEsfTKrZArN6IsgS5RhZcEyUb\neS1LP3M7jwKBgQDBZmv2zeZ9lvj59UX1mZ9fdnylATTZs1OzLT5b5CWyFIyJoW95\nga2tC792VPT3Ch7IdeamP0pwihC/o8k2Oz6gXkYgGydHEiqverbn0uFzQDKKqH3m\naxhYCUDB6ln5SiFznJoypfC/CKB55jGCVV6qg0QCOVYXyX7RB6GK8VPiPwKBgANj\nVbz7AGv7S+X8FJoqO6s+47pgOM3zJOupxcdvfGM5GfKXnHT+hU5ohnY6B7NOqWsl\nIiuvPV3CSkZne5rHinwsqvbQvfvkjsfUJKk3VMG+rqwDAfS2j5ZOI7qvLAfTt4pf\nnskBQeU3qmQrgIKGbDmg0ZPyc3xgS64edkZ5qJcfAoGANF3rfirRLlzCy75dXzFs\nsfOx53/cd1sg6WKxCjmQf0etZ1V4mcY4KeyHpCipRMZjE0DtVuR/u1/lKsJSRqeu\nklSEp214u5YVNhJgT6WbJvhQP/1ARX0pWFsoewYN6dXuiWqPdUwTaaGf9E34TDUM\nBDJAs9f3rpb8RRRR36aV3UE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "udp-mhacks23-07@udp-mhacks-november-2023.iam.gserviceaccount.com",
+  "client_id": "107969528978489592846",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/udp-mhacks23-07%40udp-mhacks-november-2023.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
