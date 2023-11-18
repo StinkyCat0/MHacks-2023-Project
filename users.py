@@ -12,10 +12,13 @@ class User:
     password = ""
     balance = 0
     bets = []
-    def __init__(self, name, password, balance):
+    id=""
+    def __init__(self, name, password, balance, id):
         self.name = name
         self.password = password
         self.balance = balance
+    def get_id(self):
+        return self.id
     def get_name(self):
         return self.name
     def get_password(self):

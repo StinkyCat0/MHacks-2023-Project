@@ -13,6 +13,8 @@ class House:
         for t in self.tests:
             line=85
             self.testlines.update({t:line})
+
+    #getters
     def get_users(self):
         return self.users
     def get_balance(self):
@@ -21,10 +23,14 @@ class House:
         return self.tests
     def get_line(self, testname):
         return self.testlines[testname]
-    def add_user(self, name, password, balance):
-        self.users.append(users.User(name, password, balance))
+
+    #user adding funcions
+    def add_user(self, name, password, balance, id):
+        self.users.append(users.User(name, password, balance, id))
     def add_user(self, user):
         self.users.append(user)
+
+    #user functions
     def resolve_test(self, testname, result):
         for u in self.users:
             self.balance-=u.resolve_bet(testname, result)
@@ -52,8 +58,8 @@ class House:
         payout = amount*1.9
         user.place_bet(amount, ou, payout, line, testname)
         self.balance += amount  
-    def updatebals(self)
-        //written to update capone api later
+    def updatebals(self):
+        #written to update capone api later
         return
     
     
