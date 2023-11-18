@@ -1,0 +1,223 @@
+{
+"SELECT lar.score, lar.person_id --la.course_offering_id, lar.learner_activity_id\r\nFROM context_store_entity.learner_activity_result AS lar\r\nJOIN context_store_entity.learner_activity AS la ON lar.learner_activity_id = la.learner_activity_id\r\nWHERE score IS NOT NULL AND la.course_offering_id = 7860 AND lar.learner_activity_id = 120016": [
+	{
+		"score" : 0.0,
+		"person_id" : 8314
+	},
+	{
+		"score" : 0.0,
+		"person_id" : 6024
+	},
+	{
+		"score" : 0.0,
+		"person_id" : 183
+	},
+	{
+		"score" : 1.0,
+		"person_id" : 4251
+	},
+	{
+		"score" : 3.0,
+		"person_id" : 527
+	},
+	{
+		"score" : 4.0,
+		"person_id" : 9532
+	},
+	{
+		"score" : 4.0,
+		"person_id" : 8357
+	},
+	{
+		"score" : 4.0,
+		"person_id" : 3727
+	},
+	{
+		"score" : 4.0,
+		"person_id" : 5935
+	},
+	{
+		"score" : 4.0,
+		"person_id" : 6819
+	},
+	{
+		"score" : 5.0,
+		"person_id" : 8898
+	},
+	{
+		"score" : 5.0,
+		"person_id" : 3751
+	},
+	{
+		"score" : 5.0,
+		"person_id" : 567
+	},
+	{
+		"score" : 5.0,
+		"person_id" : 2641
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 3872
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 9038
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 6779
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 7578
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 9037
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 5479
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 9974
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 5614
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 2263
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 1516
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 2055
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 498
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 6818
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 7908
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 290
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 9565
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 7374
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 5198
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 7635
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 3260
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 5197
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 2201
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 2976
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 9885
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 3376
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 9706
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 9092
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 1022
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 291
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 3856
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 7774
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 2642
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 4453
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 8714
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 5537
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 4502
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 7316
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 5496
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 9097
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 5842
+	},
+	{
+		"score" : 6.0,
+		"person_id" : 6805
+	}
+]}
