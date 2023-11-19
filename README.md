@@ -6,3 +6,6 @@ git add --a
 git pull
 git commit -m "whatever you wanna say"
 get push
+
+
++ example flask integration in webpage folder, i thinkkk
