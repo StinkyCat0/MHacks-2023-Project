@@ -21,7 +21,7 @@ class User:
         self.password = password
         self.balance = balance
 
-        response = create_customer(first_name, last_name, "101", "Packard", "Ann Arboer", "MI", "48306") 
+        response = create_customer(first_name, last_name, "101", "Packard", "Ann Arbor", "MI", "48306") 
         self.acc_id = response['objectCreated']['_id']
 
         response = create_account(self.acc_id, "Checking", "Checkings Account", 0, balance, account_number)
@@ -52,11 +52,10 @@ class User:
         bet = None
         for b in self.bets:
             if(b.get_testname() == testname):
-                print(testname)
                 bet = b
         if(bet == None):
             return 0
-        print(bet.resolve(result))
+        bet.resolve(result)
         if(bet.get_result() == "win"):
             self.balance += bet.get_payout()
             return bet.get_payout()
