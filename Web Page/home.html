@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Placeholder - Academic Predictive Analytics</title>
+</head>
+<body class="font-sans bg-white text-gray-800 flex flex-col min-h-screen">
+
+    <header class="bg-blue-500 text-white p-4">
+        <div class="flex justify-between items-center">
+            <div class="text-center">
+                <h1 class="text-3xl font-semibold">Placeholder</h1>
+                <p class="text-sm">Academic Predictive Analytics</p>
+            </div>
+            <div class="ml-2"> <!-- Adjusted margin-left to move it slightly to the left -->
+                <a href="account.html" class="text-white">My Account</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Carousel Section -->
+    <section class="relative container mx-auto my-8 p-8 shadow-md rounded-md text-center bg-white">       
+	    <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide relative">
+    		    <img src="https://picsum.photos/720/240" alt="Stock Photo 1">
+                    <div class="absolute top-0 left-0 p-4">
+        	        <a href="higherlower.html" class="text-2xl font-semibold text-white">Over or Under</a>
+        		<p><a href="higherlower.html" class="text-gray-300">View Open Games</a></p>
+    			</div>
+		</div>
+
+                
+                <!-- Slide 2 -->
+                <div class="swiper-slide relative">
+                    <img src="https://picsum.photos/720/240" alt="Stock Photo 2">
+                    <div class="absolute top-0 left-0 p-4">
+                        <h2 class="text-2xl font-semibold text-white">Placeholder Word 2</h2>
+                        <p class="text-gray-300">Description 2</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide relative">
+                    <img src="https://picsum.photos/720/240" alt="Stock Photo 3">
+                    <div class="absolute top-0 left-0 p-4">
+                        <h2 class="text-2xl font-semibold text-white">Placeholder Word 3</h2>
+                        <p class="text-gray-300">Description 3</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <main id="full-width-page-wrapper" class="wrapper text-center">
+        <section class="mb-8">
+		<h2 style="font-size:2.027rem; color:blue;" class="standard-page-subhead">Welcome to Placeholder!</h2>
+		<div style="font-size:1.333rem; color:black; display: inline-block; height=242; width=765;" class="standard-page-details">
+		<p class="text-gray-600">Welcome to Placeholder. The world's most innovative academic company, not only aimed towards empowering students students through crowd-sourced predictive analytics, but pioneering the scene of competitive schooling. All of this is done through <a href="higherlower.html">href1</a> aimed to test students confidence in their testing competence, rhef2 UNDER CONSTRUCTION, and href3 the most XYZ STILL UNDER CONSTRUCTION. Jump in, make informed decisions about your academic journey. Conquer the scene. Belong to Placeholder.</p>
+		</div>
+        </section>
+    
+        <!-- Other sections can be added as needed -->
+    <section class="relative container mx-auto my-8 p-4 shadow-md rounded-md text-center bg-white">
+        <div class="card-overlay absolute top-0 left-0 w-full h-full bg-blue-500 opacity-70"></div>
+        <!-- Card Section -->
+        <div class="relative w-1/4">
+            <div class="absolute top-1/2 left-0 transform -translate-y-1/2 p-4">
+                <h2 class="text-2xl font-semibold text-white">See Games</h2>
+                <p class="text-gray-300">Short description here</p>
+                <a href="gamepage.html" class="text-blue-200">View More</a>
+                <!-- Dropdown Arrow -->
+                <div class="dropdown inline-block">
+                    <button class="text-white" onclick="toggleDropdown()">
+                        &#9660;
+                    </button>
+                    <div class="dropdown-content text-left">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                        <a href="#">Link 5</a>
+                        <a href="#">Link 6</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </main>
+
+    <footer class="bg-gray-200 text-gray-600 p-4 text-center">
+        <p>&copy; 2023 Placeholder - Academic Predictive Analytics</p>
+    </footer>
+
+    <!-- Add Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            slidesPerView: 1, // Display one slide at a time
+            spaceBetween: 10,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">●</span>';
+                },
+            },
+            autoplay: {
+                delay: 3000,
+            },
+        });
+
+
+        function toggleDropdown() {
+            var dropdownContent = document.querySelector('.dropdown-content');
+            dropdownContent.style.display = dropdownContent.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>

@@ -40,3 +40,4 @@ class Wager:
             self.result = "win"
         else:
             self.result = "lose"
+        return self.result

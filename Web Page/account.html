@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Casino Account</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            cursor: pointer;
+        }
+
+        .content {
+            display: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Placeholder account</h1>
+        <div class="ml-2"> <!-- Adjusted margin-left to move it slightly to the left -->
+            <a href="home.html" class="text-white">Home</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="account-info">
+            <h2 onclick="toggleContent('account-info')">My Account Information &#9660;</h2>
+            <div class="content" id="account-info-content">
+                <!-- Display user's account information here -->
+                <p>User ID: 12345</p>
+                <p>Email: user@example.com</p>
+            </div>
+        </section>
+
+        <section class="account-settings">
+            <h2 onclick="toggleContent('account-settings')">Account Settings &#9660;</h2>
+            <div class="content" id="account-settings-content">
+                <!-- Provide options for password change, security settings, etc. -->
+                <p><a href="#">Change Password</a></p>
+                <p><a href="#">Security Settings</a></p>
+            </div>
+        </section>
+
+        <section class="financial-info">
+            <h2 onclick="toggleContent('financial-info')">Financial Information &#9660;</h2>
+            <div class="content" id="financial-info-content">
+                <!-- Display deposit/withdrawal history, transaction details, etc. -->
+                <p>Total Balance: $1000.00</p>
+                <p>Transaction History: <a href="#">View Details</a></p>
+            </div>
+        </section>
+
+        <section class="canvas-info">
+            <h2 onclick="toggleContent('canvas-info')">Canvas &#9660;</h2>
+            <div class="content" id="canvas-info-content">
+                <!-- Display information related to Canvas courses -->
+                <p>Current Canvas Courses:</p>
+                <ul>
+                    <li>Introduction to Web Development</li>
+                    <li>Data Science Fundamentals</li>
+                    <li>Mobile App Development</li>
+                    <li>History of Computer Science in America</li>
+		</ul>
+            </div>
+        </section>
+
+        <!-- Include other sections based on the features you want to provide -->
+
+    </main>
+
+    <footer>
+        &copy; 2023 My Casino. All rights reserved.
+    </footer>
+
+    <script>
+        function toggleContent(sectionId) {
+            const content = document.getElementById(`${sectionId}-content`);
+            content.style.display = content.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>
+
