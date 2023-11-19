@@ -11,23 +11,51 @@
 <body class="font-sans bg-white text-gray-800 flex flex-col min-h-screen">
 
     <header class="bg-blue-500 text-white p-4">
-        <h1 class="text-3xl font-semibold text-center">Placeholder</h1>
-        <p class="text-sm text-center">Academic Predictive Analytics</p>
+        <div class="flex justify-between items-center">
+            <div class="text-center">
+                <h1 class="text-3xl font-semibold">Placeholder</h1>
+                <p class="text-sm">Academic Predictive Analytics</p>
+            </div>
+            <div class="ml-2"> <!-- Adjusted margin-left to move it slightly to the left -->
+                <a href="account.html" class="text-white">My Account</a>
+            </div>
+        </div>
     </header>
 
     <!-- Carousel Section -->
-    <section class="relative h-96 overflow-hidden">
-        <div class="fixed w-1/4 left-0 top-1/2 transform -translate-y-1/2 transition-transform duration-2000 ease-in-out">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <!-- Use Lorem Picsum for random stock photos -->
-                    <div class="swiper-slide flex justify-center items-center"><img src="https://picsum.photos/720/240" alt="Stock Photo 1"></div>
-                    <div class="swiper-slide flex justify-center items-center"><img src="https://picsum.photos/720/240" alt="Stock Photo 2"></div>
-                    <div class="swiper-slide flex justify-center items-center"><img src="https://picsum.photos/720/240" alt="Stock Photo 3"></div>
+    <section class="relative container mx-auto my-8 p-8 shadow-md rounded-md text-center bg-white">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide relative">
+    		    <img src="https://picsum.photos/720/240" alt="Stock Photo 1">
+                    <div class="absolute top-0 left-0 p-4">
+        	        <a href="higherlower.html" class="text-2xl font-semibold text-white">Over or Under</a>
+        		<p><a href="higherlower.html" class="text-gray-300">View Open Games</a></p>
+    			</div>
+		</div>
+
+                
+                <!-- Slide 2 -->
+                <div class="swiper-slide relative">
+                    <img src="https://picsum.photos/720/240" alt="Stock Photo 2">
+                    <div class="absolute top-0 left-0 p-4">
+                        <h2 class="text-2xl font-semibold text-white">Placeholder Word 2</h2>
+                        <p class="text-gray-300">Description 2</p>
+                    </div>
                 </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide relative">
+                    <img src="https://picsum.photos/720/240" alt="Stock Photo 3">
+                    <div class="absolute top-0 left-0 p-4">
+                        <h2 class="text-2xl font-semibold text-white">Placeholder Word 3</h2>
+                        <p class="text-gray-300">Description 3</p>
+                    </div>
+                </div>
             </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
     </section>
 
@@ -50,8 +78,8 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper('.swiper-container', {
-            direction: 'vertical',
-            slidesPerView: 1,
+            direction: 'horizontal',
+            slidesPerView: 1, // Display one slide at a time
             spaceBetween: 10,
             loop: true,
             pagination: {
@@ -69,4 +97,3 @@
 
 </body>
 </html>
-
