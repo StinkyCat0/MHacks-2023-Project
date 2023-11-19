@@ -16,27 +16,26 @@ user1 = User(123, "NAM", "Dealer", generate_next_account_number(accountnumber), 
 
 #USERS: 
 #Generate Alice Smith, of account number 0000000000000001
-user1 = User(123, "Alice", "Smith", generate_next_account_number(accountnumber), 1000)
+user2 = User(123, "Alice", "Smith", generate_next_account_number(accountnumber), 1000)
 #Generate Ben Patel, of account number 0000000000000002
-user2 = User(321, "Ben", "Patel", generate_next_account_number(accountnumber), 1000)
+user3 = User(321, "Ben", "Patel", generate_next_account_number(accountnumber), 1000)
 #Generate Nessi Lee, of account number 0000000000000003
-user3 = User(132, "Nessi", "Lee", generate_next_account_number(accountnumber), 1000)
+user4 = User(132, "Nessi", "Lee", generate_next_account_number(accountnumber), 1000)
 
 #Getters
 print(user1.get_name()) 
 print(user1.get_password()) 
-print(user1.get_balance()) 
-print(user1.get_id())
 #Place Bet
-user1.place_bet(100, "over", 1.8, -125)
+
+user1.place_bet(100, "over", 1.8, 85, "Calc 2 Final Exam")
 print(user1.get_balance()) 
 print(user1.get_bets())
-#Resolve Bet
-user1.resolve_bet("over", 3)
-#Get Balance
+# #Resolve Bet
+user1.resolve_bet("Calc 2 Final Exam", 86)
+# #Get Balance
 print(user1.get_balance()) 
 print(user1.get_bets())
-#Deposit Money
+# #Deposit Money
 user1.deposit(500)
-#Review Balance
+# #Review Balance
 print(user1.get_balance())
