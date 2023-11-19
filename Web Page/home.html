@@ -59,13 +59,41 @@
         </div>
     </section>
 
-    <main id="full-width-page-wrapper" class="wrapper">
+    <main id="full-width-page-wrapper" class="wrapper text-center">
         <section class="mb-8">
-            <h2 class="text-2xl font-semibold mb-4">Welcome to Placeholder!</h2>
-            <p class="text-gray-600">Empowering students through crowd-sourced predictive analytics. Make informed decisions about your academic journey.</p>
+		<h2 style="font-size:2.027rem; color:blue;" class="standard-page-subhead">Welcome to Placeholder!</h2>
+		<div style="font-size:1.333rem; color:black; display: inline-block; height=242; width=765;" class="standard-page-details">
+		<p class="text-gray-600">Welcome to Placeholder. The world's most innovative academic company, not only aimed towards empowering students students through crowd-sourced predictive analytics, but pioneering the scene of competitive schooling. All of this is done through <a href="higherlower.html">href1</a> aimed to test students confidence in their testing competence, rhef2 UNDER CONSTRUCTION, and href3 the most XYZ STILL UNDER CONSTRUCTION. Jump in, make informed decisions about your academic journey. Conquer the scene. Belong to Placeholder.</p>
+		</div>
         </section>
-
+    
         <!-- Other sections can be added as needed -->
+    <section class="relative container mx-auto my-8 p-4 shadow-md rounded-md text-center bg-white">
+        <div class="card-overlay absolute top-0 left-0 w-full h-full bg-blue-500 opacity-70"></div>
+        <!-- Card Section -->
+        <div class="relative w-1/4">
+            <div class="absolute top-1/2 left-0 transform -translate-y-1/2 p-4">
+                <h2 class="text-2xl font-semibold text-white">See Games</h2>
+                <p class="text-gray-300">Short description here</p>
+                <a href="gamepage.html" class="text-blue-200">View More</a>
+                <!-- Dropdown Arrow -->
+                <div class="dropdown inline-block">
+                    <button class="text-white" onclick="toggleDropdown()">
+                        &#9660;
+                    </button>
+                    <div class="dropdown-content text-left">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                        <a href="#">Link 5</a>
+                        <a href="#">Link 6</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     </main>
 
@@ -93,6 +121,12 @@
                 delay: 3000,
             },
         });
+
+
+        function toggleDropdown() {
+            var dropdownContent = document.querySelector('.dropdown-content');
+            dropdownContent.style.display = dropdownContent.style.display === 'none' ? 'block' : 'none';
+        }
     </script>
 
 </body>
