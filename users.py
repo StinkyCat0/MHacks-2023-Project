@@ -21,7 +21,7 @@ class User:
         self.password = password
         self.balance = balance
 
-        response = create_customer(first_name, last_name, "101", "Packard", "Ann Arboer", "MI", "48306") 
+        response = create_customer(first_name, last_name, "101", "Packard", "Ann Arbor", "MI", "48306") 
         self.acc_id = response['objectCreated']['_id']
 
         response = create_account(self.acc_id, "Checking", "Checkings Account", 0, balance, account_number)

@@ -24,3 +24,11 @@ for file in files:
 # Print all averages
 for i, average in enumerate(averages):
     print(f"Average for file {files[i]}: {average}")
+
+
+def findavg(data):
+    sum = 0
+    for i in data:
+        sum += i
+    return sum / len(data)
+
