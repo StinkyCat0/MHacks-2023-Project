@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Placeholder - Academic Predictive Analytics</title>
+</head>
+<body class="font-sans bg-white text-gray-800 flex flex-col min-h-screen">
+
+    <header class="bg-blue-500 text-white p-4">
+        <h1 class="text-3xl font-semibold text-center">Placeholder</h1>
+        <p class="text-sm text-center">Academic Predictive Analytics</p>
+    </header>
+
+    <!-- Carousel Section -->
+    <section class="relative h-96 overflow-hidden">
+        <div class="fixed w-1/4 left-0 top-1/2 transform -translate-y-1/2 transition-transform duration-2000 ease-in-out">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Use Lorem Picsum for random stock photos -->
+                    <div class="swiper-slide flex justify-center items-center"><img src="https://picsum.photos/720/240" alt="Stock Photo 1"></div>
+                    <div class="swiper-slide flex justify-center items-center"><img src="https://picsum.photos/720/240" alt="Stock Photo 2"></div>
+                    <div class="swiper-slide flex justify-center items-center"><img src="https://picsum.photos/720/240" alt="Stock Photo 3"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <main class="flex-1 container mx-auto my-8 p-8 shadow-md rounded-md text-center bg-white">
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Welcome to Placeholder!</h2>
+            <p class="text-gray-600">Empowering students through crowd-sourced predictive analytics. Make informed decisions about your academic journey.</p>
+        </section>
+
+        <!-- Other sections can be added as needed -->
+
+    </main>
+
+    <footer class="bg-gray-200 text-gray-600 p-4 text-center">
+        <p>&copy; 2023 Placeholder - Academic Predictive Analytics</p>
+    </footer>
+
+    <!-- Add Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">●</span>';
+                },
+            },
+            autoplay: {
+                delay: 3000,
+            },
+        });
+    </script>
+
+</body>
+</html>
+
